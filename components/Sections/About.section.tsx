@@ -15,9 +15,9 @@ const About: NextComponentType = () => {
         </p>
 
         <p className="mt-4 text-gray-400">
-          React Native and Front end development is my core strength, however,
-          I've spent some time building iOS apps. I also like hack stuff in
-          general.
+          React Native and Front end development is my core strength. I also
+          like hack stuff in general and I like to spend some time building iOS
+          apps.
         </p>
 
         <Link href="https://blog.anurag.tech" passHref>
