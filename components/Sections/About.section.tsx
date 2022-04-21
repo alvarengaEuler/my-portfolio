@@ -9,14 +9,15 @@ const About: NextComponentType = () => {
   return (
     <div className="my-8 flex flex-row items-center justify-between px-3 font-sen">
       <div>
-        <p className="text-3xl font-bold text-white">Anurag</p>
+        <p className="text-3xl font-bold text-white">Euler Alvarenga</p>
         <p className="mt-1 text-lg text-gray-300">
-          Frontend Developer, Blogger and a Student
+          Hybrid Mobile Developer/iOS Mobile Engeneer, Blogger and a Student
         </p>
 
         <p className="mt-4 text-gray-400">
-          Building Web apps, proficient in Frontend. Writing articles <br /> on
-          my blog sometimes.
+          React Native and Front end development is my core strength, however,
+          I've spent some time building iOS apps. I also like hack stuff in
+          general.
         </p>
 
         <Link href="https://blog.anurag.tech" passHref>

@@ -15,12 +15,12 @@ import Script from "next/script";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Script
+      {/* <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-      />
+      /> */}
 
-      <Script id="google-analytics" strategy="lazyOnload">
+      {/* <Script id="google-analytics" strategy="lazyOnload">
         {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -29,36 +29,35 @@ function MyApp({ Component, pageProps }: AppProps) {
               page_path: window.location.pathname,
             });
                 `}
-      </Script>
+      </Script> */}
       <NextSeo
-        title="Anurag | Frontend Developer"
-        titleTemplate="Anurag | Frontend Developer"
-        defaultTitle="Anurag | Frontend Developer"
-        description="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
+        title="Euler Alvarenga | Frontend Developer"
+        titleTemplate="Euler Alvarenga | Frontend Developer"
+        defaultTitle="Euler Alvarenga | Frontend Developer"
+        description="Hey! I'm Euler Alvarenga, A Frontend Developer!"
         openGraph={{
-          url: "https://www.anurag.tech/",
-          title: "Anurag | Frontend Developer",
-          description:
-            "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
+          url: "#",
+          title: "Euler Alvarenga | Frontend Developer",
+          description: "Hey! I'm Euler Alvarenga, A Frontend Developer!",
           images: [
             {
               url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
               width: 800,
               height: 420,
-              alt: "Anurag | Frontend Developer",
+              alt: "Euler Alvarenga | Frontend Developer",
             },
           ],
         }}
-        twitter={{
-          handle: "@kr_anurag_",
-          site: "@kr_anurag_",
-          cardType: "summary_large_image",
-        }}
+        // twitter={{
+        //   handle: "@kr_anurag_",
+        //   site: "@kr_anurag_",
+        //   cardType: "summary_large_image",
+        // }}
         additionalMetaTags={[
           {
             property: "keywords",
             content:
-              "Frontend Developer, anurag, anuragkr, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
+              "Frontend Developer, euler, alvarenga, Web Developer, ios, android, react, react native, web development, web developer, blogger, tech enthusiast, open source",
           },
         ]}
       />
