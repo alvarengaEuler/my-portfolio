@@ -41,9 +41,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           description: "Hey! I'm Euler Alvarenga, A Frontend Developer!",
           images: [
             {
-              url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
+              url: "https://lh3.googleusercontent.com/drive-viewer/AJc5JmRfimY6R2x0YCS7nfP8w8bGCy9fYCq5ODzEnFmav4xqtUK_FNirhs-LAbyU3bOQgZuHpUMDPNE=w1637-h936",
               width: 800,
-              height: 420,
+              height: 474,
               alt: "Euler Alvarenga | Frontend Developer",
             },
           ],
