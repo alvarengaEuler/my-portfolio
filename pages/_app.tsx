@@ -48,11 +48,11 @@ function MyApp({ Component, pageProps }: AppProps) {
             },
           ],
         }}
-        // twitter={{
-        //   handle: "@kr_anurag_",
-        //   site: "@kr_anurag_",
-        //   cardType: "summary_large_image",
-        // }}
+        twitter={{
+          handle: "@AlvarengaEuler",
+          site: "@AlvarengaEuler",
+          cardType: "summary_large_image",
+        }}
         additionalMetaTags={[
           {
             property: "keywords",
